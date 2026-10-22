@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --brand-dark: #051a12;
+    --brand-card: #082419;
+    --brand-border: #143d2c;
+    --gold-primary: #d4af37;
+    --gold-light: #f3e5ab;
+    --gold-dark: #aa771c;
+  }
+
+  body {
+    font-family: 'Cairo', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #051a12;
+    color: #e5ede9;
+  }
+}
+
+.font-quran {
+  font-family: 'Amiri Quran', 'Amiri', serif;
+  line-height: 2.2;
+}
+
+.font-amiri {
+  font-family: 'Amiri', serif;
+}
+
+.font-cairo {
+  font-family: 'Cairo', sans-serif;
+}
+
+/* Lightweight custom scrollbar for low-spec Windows machines */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #051a12;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #194632;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d4af37;
+}
+
+/* Islamic Ayah Symbol numbering badge */
+.ayah-symbol {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.85em;
+  height: 1.85em;
+  margin: 0 0.3em;
+  border-radius: 50%;
+  border: 1px solid rgba(212, 175, 55, 0.45);
+  background: radial-gradient(circle, rgba(212, 175, 55, 0.15) 0%, rgba(5, 26, 18, 0.6) 80%);
+  color: #d4af37;
+  font-size: 0.75em;
+  font-weight: 700;
+  vertical-align: middle;
+  position: relative;
+}
+
+/* Gold Gradient Text */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #fff2b2 0%, #d4af37 50%, #aa771c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Subtle Gold Border */
+.border-gold-subtle {
+  border-color: rgba(212, 175, 55, 0.25);
+}

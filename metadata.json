@@ -1,0 +1,6 @@
+{
+  "name": "NOOR | نور",
+  "description": "تطبيق إسلامي شامل للويندوز بتصميم أخضر داكن وذهبي: القرآن الكريم مع التلاوة الصوتية، نظام كشف أخطاء التسميع والمراجعة، مواقيت الصلاة والأذان، وأداء فائق الخفة للأجهزة الاقتصادية.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
